@@ -23,7 +23,7 @@ if __name__ == '__main__':
     number_of_tests = 30 # Numero de pruebas a realizar
     n_steps, n_test = 0, 1 # Contador de steps y pruebas individuales
     n_test_instance = 1 # Contador de instancias de prueba
-    test_every_frames = 1000 # Realizar pruebas cada n frames
+    test_every_frames = 520_000 # Realizar pruebas cada n frames
     load_checkpoint = False # Cargar modelo (?)
     render = False
     
