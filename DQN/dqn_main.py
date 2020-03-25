@@ -29,7 +29,7 @@ if __name__ == '__main__':
     
 
     agent = Agent(gamma=0.99, epsilon=1.0, alpha=0.00025,
-                  input_dims=env.observation_space.shape, n_actions=env.action_space.n, mem_size=100_000,
+                  input_dims=env.observation_space.shape, n_actions=env.action_space.n, mem_size=200_000,
                   eps_min=0.1, batch_size=32, replace=10_000, eps_dec=1e-5, 
                   save_name='dqn_model', load_name='dqn_model_5000it.h5')
 
