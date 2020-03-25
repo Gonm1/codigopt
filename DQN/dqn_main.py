@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     test_rewards, test_qvalue, test_times = [], [], []
     scores, eps_history = [], []
-    num_games = 10
+    num_games = 10_000
     number_of_tests = 30 # Numero de pruebas a realizar
     n_steps, n_test = 0, 1 # Contador de steps y pruebas individuales
     n_test_instance = 1 # Contador de instancias de prueba
